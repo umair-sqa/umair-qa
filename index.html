@@ -4,62 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Umair Haider - SDET</title>
-    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gray-50 font-sans text-gray-800">
 
-<div class="container">
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-xl shadow-lg">
     <!-- Header Section -->
-    <div class="header">
-        <h1>Umair Haider</h1>
-        <p class="title">Software Development Engineer in Test (SDET)</p>
+    <div class="text-center mb-8">
+        <h1 class="text-4xl text-blue-600 mb-2">Umair Haider</h1>
+        <p class="text-xl text-gray-600">Software Development Engineer in Test (SDET)</p>
     </div>
 
     <!-- Contact Information -->
-    <div class="contact-info">
-        <p><strong>Email:</strong> <a href="mailto:cheemaumair912@gmail.com">cheemaumair912@gmail.com</a></p>
+    <div class="flex justify-between text-lg text-gray-600 mb-8">
+        <p><strong>Email:</strong> <a href="mailto:cheemaumair912@gmail.com" class="text-blue-600">cheemaumair912@gmail.com</a></p>
         <p><strong>Phone:</strong> (+92) 326 746 9848</p>
         <p><strong>Location:</strong> Sargodha, Pakistan</p>
     </div>
 
     <!-- Profile Section -->
-    <section class="profile">
-        <h2 class="section-header">Profile</h2>
+    <section class="mb-8">
+        <h2 class="text-2xl text-blue-600 font-semibold border-b-2 border-blue-600 pb-2 mb-4">Profile</h2>
         <p>Skilled Software Development Engineer in Test (SDET) with expertise in both manual and automated testing. Passionate about optimizing QA processes and driving CI/CD pipelines to ensure high-quality software delivery.</p>
     </section>
 
     <!-- Skills Section -->
-    <section class="skills">
-        <h2 class="section-header">Skills</h2>
-        <ul>
-            <li>
-                <strong>Languages</strong>
-                <span>JavaScript, Python, Java, JSON, HTML5, CSS</span>
+    <section class="mb-8">
+        <h2 class="text-2xl text-blue-600 font-semibold border-b-2 border-blue-600 pb-2 mb-4">Skills</h2>
+        <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <li class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:translate-y-1">
+                <strong class="block text-xl text-gray-800 mb-3">Languages</strong>
+                <span class="text-gray-600">JavaScript, Python, Java, JSON, HTML5, CSS</span>
             </li>
-            <li>
-                <strong>Frameworks</strong>
-                <span>Cypress, PactumJS, Playwright, RobotFramework, APIs, Selenium WebDriver</span>
+            <li class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:translate-y-1">
+                <strong class="block text-xl text-gray-800 mb-3">Frameworks</strong>
+                <span class="text-gray-600">Cypress, PactumJS, Playwright, RobotFramework, Selenium WebDriver</span>
             </li>
-            <li>
-                <strong>Software Tools</strong>
-                <span>Postman, Jira, Git, Jenkins, CI/CD, Atlassian Agile, Zephyr QA Management Tool, QASymphony, Microsoft Office</span>
+            <li class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:translate-y-1">
+                <strong class="block text-xl text-gray-800 mb-3">Software Tools</strong>
+                <span class="text-gray-600">Postman, Jira, Git, Jenkins, CI/CD, Atlassian Agile, Zephyr QA Management Tool, QASymphony, Microsoft Office</span>
             </li>
-            <li>
-                <strong>Operating Systems</strong>
-                <span>macOS, Windows 10/7</span>
+            <li class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:translate-y-1">
+                <strong class="block text-xl text-gray-800 mb-3">Operating Systems</strong>
+                <span class="text-gray-600">macOS, Windows 10/7</span>
             </li>
         </ul>
     </section>
 
     <!-- Experience Section -->
-    <section class="employment">
-        <h2 class="section-header">Employment</h2>
-        
+    <section class="mb-8">
+        <h2 class="text-2xl text-blue-600 font-semibold border-b-2 border-blue-600 pb-2 mb-4">Experience</h2>
+
         <!-- Alchemy -->
-        <div class="job">
-            <h3>Alchemy, Ireland - Remote</h3>
-            <p><strong>Position:</strong> SQA | <strong>July 2023 – Present</strong></p>
-            <ul>
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md mb-6 hover:shadow-lg transition-transform transform hover:translate-y-1">
+            <h3 class="text-xl text-gray-800 mb-2">Alchemy, Ireland - Remote</h3>
+            <p class="text-gray-600 mb-4"><strong>Position:</strong> SQA | <strong>July 2023 – Present</strong></p>
+            <ul class="list-disc pl-5 text-gray-700">
                 <li>Developed and maintained automation test suites using Playwright, Python with Selenium, and Cypress.</li>
                 <li>Created and integrated API tests into CI/CD pipelines with Postman and Newman.</li>
                 <li>Configuring and maintaining CI/CD pipelines using Jenkins and GitHub Actions.</li>
@@ -69,22 +69,22 @@
         </div>
         
         <!-- Sprint Synergy -->
-        <div class="job">
-            <h3>Sprint Synergy</h3>
-            <p><strong>Position:</strong> SQA Automation Engineer | <strong>Dec 2021 – June 2023</strong></p>
-            <ul>
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md mb-6 hover:shadow-lg transition-transform transform hover:translate-y-1">
+            <h3 class="text-xl text-gray-800 mb-2">Sprint Synergy</h3>
+            <p class="text-gray-600 mb-4"><strong>Position:</strong> SQA Automation Engineer | <strong>Dec 2021 – June 2023</strong></p>
+            <ul class="list-disc pl-5 text-gray-700">
                 <li>Automated functional and regression tests using frameworks like Cypress, Playwright, Selenium, and Robot Framework.</li>
                 <li>Implemented API testing using Postman, Cypress, Playwright, and PactumJS.</li>
                 <li>Integrated automated tests into CI/CD pipelines using Jenkins and managed multiple environments (QA, Staging, Production).</li>
                 <li>Collaborated with cross-functional teams, including developers and business stakeholders, to ensure high-quality software delivery.</li>
             </ul>
         </div>
-    
+
         <!-- Brainiac Creative Solutions -->
-        <div class="job">
-            <h3>Brainiac Creative Solutions</h3>
-            <p><strong>Position:</strong> Quality Assurance Engineer | <strong>Sep 2019 – June 2021</strong></p>
-            <ul>
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md mb-6 hover:shadow-lg transition-transform transform hover:translate-y-1">
+            <h3 class="text-xl text-gray-800 mb-2">Brainiac Creative Solutions</h3>
+            <p class="text-gray-600 mb-4"><strong>Position:</strong> Quality Assurance Engineer | <strong>Sep 2019 – June 2021</strong></p>
+            <ul class="list-disc pl-5 text-gray-700">
                 <li>Performed API testing with Postman and database testing for MySQL and PostgreSQL.</li>
                 <li>Collaborated with cross-functional teams in an Agile environment to deliver quality releases.</li>
                 <li>Ensured test traceability and accessibility by organizing and managing test cases in TestRail.</li>
@@ -93,16 +93,16 @@
     </section>
 
     <!-- Education Section -->
-    <section class="education">
-        <h2 class="section-header">Education</h2>
-        <ul>
+    <section class="mb-8">
+        <h2 class="text-2xl text-blue-600 font-semibold border-b-2 border-blue-600 pb-2 mb-4">Education</h2>
+        <ul class="list-disc pl-5 text-gray-700">
             <li><strong>Master of Science in IT</strong>, University of Central Punjab, 2019</li>
             <li><strong>Bachelor of Science in Computer Science</strong>, University of Central Punjab, 2017</li>
         </ul>
     </section>
 
     <!-- Footer Section -->
-    <div class="footer">
+    <div class="text-center text-gray-600 mt-8">
         <p>Made with ❤️ | © Umair Haider 2025</p>
     </div>
 </div>
