@@ -1,0 +1,11 @@
+export {default as portfolioImage1} from './portfolio-1.jpg';
+export {default as portfolioImage2} from './portfolio-2.jpg';
+export {default as portfolioImage3} from './portfolio-3.jpg';
+export {default as portfolioImage4} from './portfolio-4.jpg';
+export {default as portfolioImage5} from './portfolio-5.jpg';
+export {default as portfolioImage6} from './portfolio-6.jpg';
+export {default as portfolioImage7} from './portfolio-7.jpg';
+export {default as portfolioImage8} from './portfolio-8.jpg';
+export {default as portfolioImage9} from './portfolio-9.jpg';
+export {default as portfolioImage10} from './portfolio-10.jpg';
+export {default as portfolioImage11} from './portfolio-11.jpg';
