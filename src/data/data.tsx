@@ -123,23 +123,23 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'English',
-        level: 'Proficient',
+        level: 9
       },
       {
         name: 'Urdu',
-        level: 'Native',
+        level: 9,
       },
       {
         name: 'Punjabi',
-        level: 'Native',
+        level: 9,
       },
       {
         name: 'Japanese',
-        level: 'Basic',
+        level: 2,
       },
       {
         name: 'Hindi',
-        level: 'Conversational',
+        level: 6,
       },
     ],
   },
